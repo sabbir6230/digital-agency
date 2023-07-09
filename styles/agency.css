@@ -36,3 +36,59 @@ nav {
 }
 
 /* Banner Section */
+
+.banner {
+    height: 100vh;
+    background-image: url("../asset/image/background.jpg"),
+    linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.banner-title {
+    font-size: 75px;
+}
+.bg-primary {
+    color:rgb(109, 223, 2);
+}
+.banner-description {
+    width: 600px;
+    font-size: 25px;
+    margin: 30px 0;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.active-btn {
+    background-color: deeppink;
+    color: #fff;
+}
+
+.active-btn:hover {
+    background-color: white;
+    color: deeppink;
+}
+
+.simple-btn {
+    background-color: #fff;
+    color: deeppink;
+}
+
+.simple-btn:hover {
+    background-color: deeppink;
+    color: #fff;
+}
