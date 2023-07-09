@@ -145,6 +145,8 @@ nav {
     display: flex;
     align-items: center;
     gap: 10px;
+    border-right: 1px solid #9b0000;
+    padding-right: 100px;
 }
 .service-author-profile {
     width: 80px;
@@ -185,4 +187,73 @@ nav {
 }
 .card {
     margin-top: 20px;
+}
+
+/* Appointment Seciton */
+
+.appointment {
+    width: 80%;
+    margin: auto;
+    /* background-image: url("../asset/image/appointment1.png"),
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)); */
+    background-color: #9b0000;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    padding: 50px 20px;
+    margin-top: -90px;
+    color: #fff;
+}
+
+.appointment-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 80px;
+}
+.appoint-phone {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.appointment-phone-icon {
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.appointment-phone-title {
+    border-right: 1px solid #fff;
+    padding-right: 50px;
+}
+
+.appointment-phone-title h3{
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.appointment-phone-title span {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.appointment-description {
+    width: 500px;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 30px;
+}
+
+.appointment-btn {
+    padding: 10px 20px;
+    color: #000;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 2px;
 }
