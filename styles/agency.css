@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgb(161, 161, 161);
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.nav-menus {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menus a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    background-color: chartreuse;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.nav-menus a:hover {
+    background-color: aqua;
+    box-shadow: 0px 0px 8px rgb(109, 223, 2), -0px -0px 8px rgb(109, 223, 2);
+}
+
+/* Banner Section */
