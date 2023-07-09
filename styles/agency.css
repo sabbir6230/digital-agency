@@ -96,7 +96,7 @@ nav {
 /* Service Section */
 
 .service {
-    height: 120vh;
+    height: 130vh;
     background-image: url("../asset/image/footer-bg.png"),
     linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.9));
     background-blend-mode: overlay;
@@ -306,4 +306,70 @@ nav {
 .blog-card-description {
     font-size: 17px;
     padding: 10px 20px 40px 20px;
+}
+
+/* Footer Section */
+.footer {
+    background-image: url("../asset/image/footer-bg.png"), 
+    linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 150px 40px 150px;
+}
+.footer-column-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+}
+.footer-column img {
+    width: 80%;
+}
+
+.footer-column-description {
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.footer-column-icon {
+    display: flex;
+    gap: 30px;
+}
+.footer-column-icon li {
+    list-style-type: none;
+    margin-top: 20px;
+}
+.footer-column-icon li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer-title {
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.footer-list li{
+    list-style: none;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.footer-list i {
+    margin-right: 10px;
+}
+
+.footer hr {
+    margin-top: 80px;
+    color: gray;
+}
+
+.copyright {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
 }
